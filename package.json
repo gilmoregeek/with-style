@@ -2,7 +2,7 @@
   "name": "with-style",
   "homepage": "https://gilmoregeek.github.io/with-style",
   "version": "0.2.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
