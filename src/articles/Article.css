@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+
+.Article {
+    background-image: radial-gradient(#ededed 10%, transparent 10%),
+        radial-gradient(#ededed 10%, transparent 10%);
+    background-color: #fff;
+    background-position: 0 0, 40px 40px;
+    background-size: 40px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 55px;
+    width: 70vw;
+    max-width: 1000px;
+    margin-top: 50px;
+}
+
+.inline-flexing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.inline-flexing img{
+    width: 200px;
+    max-width: 50%;
+}
+
+
+.first-paragraph {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   width: 800px;
+   font-weight: 600;
+}
+
+.more-button {
+    border: 1px solid black;
+    padding: 5px;
+    margin-bottom: 10px;
+    background: #fff;
+}
+
+.more-button:hover {
+    background: #000;
+    color: #fff;
+}
+
+.Article h1 {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 45px !important;
+    padding: 10px 0;
+    font-weight: 600 !important;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-family:'Times New Roman', Times, serif;
+    color: #000;
+    margin-bottom: 50px;
+    font-size: 100px;   
+}
+
+.Article h2 {
+    /* font-family: 'Harry Potter', sans-serif; */
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+.content-wrapper img {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.content-wrapper .frame {
+    width: 230px;
+    height: 350px;
+    margin: 0 20px;
+}
+
+.content-wrapper .pic {
+    max-height: 500px;
+    max-width: 300px;
+}
+
+@media only screen and (max-width: 750px) {
+    .content-wrapper {
+        flex-direction: column;
+        width: 100vw;
+        padding: 10px 10px;
+    }
+
+    .content-wrapper img{
+        height: auto;
+        width: 80vw;
+        max-width: 200px;
+    }
+}
