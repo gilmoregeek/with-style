@@ -1,22 +1,32 @@
 {
   "files": {
-    "main.css": "/with-style/static/css/main.b93838d6.chunk.css",
-    "main.js": "/with-style/static/js/main.23e73957.chunk.js",
-    "main.js.map": "/with-style/static/js/main.23e73957.chunk.js.map",
+    "main.css": "/with-style/static/css/main.50a43e93.chunk.css",
+    "main.js": "/with-style/static/js/main.6aa27f73.chunk.js",
+    "main.js.map": "/with-style/static/js/main.6aa27f73.chunk.js.map",
     "runtime-main.js": "/with-style/static/js/runtime-main.1f42e333.js",
     "runtime-main.js.map": "/with-style/static/js/runtime-main.1f42e333.js.map",
-    "static/js/2.93e2d098.chunk.js": "/with-style/static/js/2.93e2d098.chunk.js",
-    "static/js/2.93e2d098.chunk.js.map": "/with-style/static/js/2.93e2d098.chunk.js.map",
+    "static/css/2.d8c133cf.chunk.css": "/with-style/static/css/2.d8c133cf.chunk.css",
+    "static/js/2.54e35309.chunk.js": "/with-style/static/js/2.54e35309.chunk.js",
+    "static/js/2.54e35309.chunk.js.map": "/with-style/static/js/2.54e35309.chunk.js.map",
     "index.html": "/with-style/index.html",
-    "precache-manifest.46af38c02c308360cfe2b2044f71cb2d.js": "/with-style/precache-manifest.46af38c02c308360cfe2b2044f71cb2d.js",
+    "precache-manifest.a4b94cafac724200bde54de1a8fd36aa.js": "/with-style/precache-manifest.a4b94cafac724200bde54de1a8fd36aa.js",
     "service-worker.js": "/with-style/service-worker.js",
-    "static/css/main.b93838d6.chunk.css.map": "/with-style/static/css/main.b93838d6.chunk.css.map",
-    "static/js/2.93e2d098.chunk.js.LICENSE.txt": "/with-style/static/js/2.93e2d098.chunk.js.LICENSE.txt"
+    "static/css/2.d8c133cf.chunk.css.map": "/with-style/static/css/2.d8c133cf.chunk.css.map",
+    "static/css/main.50a43e93.chunk.css.map": "/with-style/static/css/main.50a43e93.chunk.css.map",
+    "static/js/2.54e35309.chunk.js.LICENSE.txt": "/with-style/static/js/2.54e35309.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/with-style/static/media/bg.jpg.0dd64a91.jpg",
+    "static/media/hogwarts-1.png": "/with-style/static/media/hogwarts-1.0d7ab91c.png",
+    "static/media/hogwarts-2.png": "/with-style/static/media/hogwarts-2.dd87ec36.png",
+    "static/media/hogwarts-3.png": "/with-style/static/media/hogwarts-3.8a8ce6cf.png",
+    "static/media/hogwarts-4.png": "/with-style/static/media/hogwarts-4.8a42d8e8.png",
+    "static/media/hogwarts-5.png": "/with-style/static/media/hogwarts-5.ee7fb626.png",
+    "static/media/hogwarts-6.png": "/with-style/static/media/hogwarts-6.a4c887bf.png"
   },
   "entrypoints": [
     "static/js/runtime-main.1f42e333.js",
-    "static/js/2.93e2d098.chunk.js",
-    "static/css/main.b93838d6.chunk.css",
-    "static/js/main.23e73957.chunk.js"
+    "static/css/2.d8c133cf.chunk.css",
+    "static/js/2.54e35309.chunk.js",
+    "static/css/main.50a43e93.chunk.css",
+    "static/js/main.6aa27f73.chunk.js"
   ]
 }
