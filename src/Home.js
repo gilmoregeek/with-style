@@ -28,14 +28,13 @@ function Home() {
             <Link to="/with-style/articles/"  >
             <div className="teaser-module">
                 <div className="teaser-module-image">
-                    <img src={image2}/>
+                    <p>Coming Soon..</p>
                 </div>
-                <h2>Avatar Way of Water</h2>
+                <h2> More to come...</h2>
             </div>
             </Link>
         </div>
         <footer className="footer">
-        some footer infos
         </footer>
         </header>
 
