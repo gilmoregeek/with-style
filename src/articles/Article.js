@@ -20,62 +20,76 @@ function Article() {
             </div>
         </div>
         <div class="first-paragraph">
-            <h1>Hogwarts Legacies</h1>
-            <p>70 magische Stunden und ein tränenreicher Abschied später und ich kann behaupten, dass
-                Hogwarts Legacy all meine Erwartungen mehr als erfüllt / übertroffen hat.
-                Im Jahr 1800 habe ich die Chance bekommen mich mehrmals in Hogwarts zu erirren, bin durch den verbotenen Wald geschlichen, habe Hogmeats leer gekauft und – ich sah dabei fabelhaft aus. Zumindest virtuell.
-                Natürlich gab es eine Vielzahl an Möglichkeiten zum Kombinieren von Outfits, aber hier kommen meine liebsten Outfits:</p>
-        </div>  
-        <div className="content-wrapper">
-            <img src={image1} />
-            <div>
-                <h2>Die Schuluniform</h2>
-                <p className="text">Natürlich habe ich die verschiedenen Anlässe der Quests für unterschiedliche Outfits genutzt. Also habe ich mich für die akademischen Aktivitäten für eine formeller Schuluniform entschieden. Zu meiner Freude als treuer Hufflepuff wurde hierfür das Gelb des Wappens in einen etwas goldeneren Ton gewandelt, der gut das Leuchten der freundlichen Hufflepuffs wiederspiegelt. </p>
-                <div className="inline-flexing">
-                    <div>
-                        <p><b>Die Farben der Hogwarts Häuser</b></p>
-                        <p>Gryffindor Rot: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor i<br/>
-                        Slythrin Grün: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor i<br/>
-                        Ravenclaw Blau: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor i<br/>
-                        Hufflepuff Gelb: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor i</p>
-                    </div>
-                    <img src={image6} />
-                </div>
+            <div className="left">
+                <img src={image6} />  
             </div>
-        </div>
+            <div>
+                <h1>Hogwarts <br/> Legacies</h1>
+                <p>70 magische Stunden und ein tränenreicher Abschied später und ich kann behaupten, dass
+                    Hogwarts Legacy all meine Erwartungen mehr als erfüllt / übertroffen hat.
+                    Im Jahr 1800 habe ich die Chance bekommen mich mehrmals in Hogwarts zu erirren, bin durch den verbotenen Wald geschlichen, habe Hogmeats leer gekauft und – ich sah dabei fabelhaft aus. Zumindest virtuell.
+                    Natürlich gab es eine Vielzahl an Möglichkeiten zum Kombinieren von Outfits, aber hier kommen meine liebsten Outfits:</p>
+            </div>
       
-        <div className="content-wrapper">
-            <div>
-                <h2>Der Abenteurer</h2>
-                <p>Für die wärmeren Zeiten habe ich mich für einen sehr femininen Stil entschieden. Strohhut, geblümte Bluse und eine Schleife an der Hosen schreien nicht gerade nach angriffslustiger Abenteuerin, und hat hat die Kampfszenen deswegen schon etwas lustig aussehen lassen.
-                </p>   
-                <div className="inline-flexing">
-                    
-                    <p> Für die abenteuerlichen Missionen außerhalb des Schlosses hatte ich für die kälteren Jahreszeiten einen Umhang mit kuscheligem Schal, ganz in den Farben meines Hauses.</p>
-                    <img src={image2} />
+        </div>  
+        <div class="article-wrapper">
+            <div class="text-col">
+                <div>
+                    <h2>Die Schuluniform</h2>
+                    <p className="text">Natürlich habe ich die verschiedenen Anlässe der Quests für unterschiedliche Outfits genutzt. Also habe ich mich für die akademischen Aktivitäten für eine formeller Schuluniform entschieden. Zu meiner Freude als treuer Hufflepuff wurde hierfür das Gelb des Wappens in einen etwas goldeneren Ton gewandelt, der gut das Leuchten der freundlichen Hufflepuffs wiederspiegelt. </p>
+                    <div className="inline-flexing">
+                        <div>
+                            <h3>Die Farben der Hogwarts Häuser</h3>
+                            <p>Gryffindor Rot: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor i<br/>
+                            Slythrin Grün: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor i<br/>
+                            Ravenclaw Blau: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor i<br/>
+                            Hufflepuff Gelb: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor i</p>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div>
+                    <h2>Der Abenteurer</h2>
+                    <p>Für die wärmeren Zeiten habe ich mich für einen sehr femininen Stil entschieden. Strohhut, geblümte Bluse und eine Schleife an der Hosen schreien nicht gerade nach angriffslustiger Abenteuerin, und hat hat die Kampfszenen deswegen schon etwas lustig aussehen lassen.
+                    </p>   
+                    <div className="inline-flexing">
+                        <p> Für die abenteuerlichen Missionen außerhalb des Schlosses hatte ich für die kälteren Jahreszeiten einen Umhang mit kuscheligem Schal, ganz in den Farben meines Hauses.</p>
+                    </div>
+                </div>
+                <div>
+                    <h2>Der Hüter</h2>
+                    <p>
+                    Zuletzt hatte ich mir als geprüfte Hüterin etwas extravagantes verdient. Ich wollte wie ein abenteuerlicher Dumbledore aussehen und finde, dass mein Look für die letzte Mission das mit den glitzernden Verzierungen, dem Gold und .. gut zeigt.
+                    Das Basisoutfit bestand aus festen Stiefeln…
+                    </p>
+                    <div className="inline-flexing">
+                        <div>
+                            <h3>Woher kommen eigentlich Hüte in der Zaubererwelt?</h3>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+                        </div>
+                        <img src={image4} />
+                    </div>
                 </div>
             </div>
-            <img src={image5} />
+            <div className="image-wrapper">
+                <span className="image">
+                    <img src={image1} />
+                    <p>Hufflepuff Schuluniform</p>
+                </span>
+                <span className="image">
+                    <img src={image5} />
+                    <p>Unterschrift</p>
+                </span>
+                <span className="image">
+                    <img src={image3} />
+                    <p>Unterschrift</p>
+                </span>
+            </div>
+
         </div>
        
-        <div className="content-wrapper">
-             <img src={image3}/>
-             <div>
-                <h2>Der Hüter</h2>
-                <p>
-                Zuletzt hatte ich mir als geprüfte Hüterin etwas extravagantes verdient. Ich wollte wie ein abenteuerlicher Dumbledore aussehen und finde, dass mein Look für die letzte Mission das mit den glitzernden Verzierungen, dem Gold und .. gut zeigt.
-                Das Basisoutfit bestand aus festen Stiefeln…
-                </p>
-                <div className="inline-flexing">
-                    <div>
-                        <p><b>Woher kommen eigentlich Hüte in der Zaubererwelt?</b></p>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
-                    </div>
-                    <img src={image4} />
-                </div>
-             </div>
-           
-        </div>
+    
+       
     </div>
   );
 }

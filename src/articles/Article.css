@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,wght@0,300;0,400;1,300&family=Poltawski+Nowy:wght@400;500;700&display=swap');
+
+
+
 
 .Article {
-    background-image: radial-gradient(#ededed 10%, transparent 10%),
-        radial-gradient(#ededed 10%, transparent 10%);
+    /* background-image: radial-gradient(#ededed 10%, transparent 10%),
+        radial-gradient(#ededed 10%, transparent 10%); */
     background-color: #fff;
     background-position: 0 0, 40px 40px;
     background-size: 40px 40px;
@@ -31,18 +37,58 @@
 }
 
 .inline-flexing img{
-    width: 200px;
-    max-width: 50%;
+    width: 150px;
+    margin-left: 20px;
+    /* max-width: 50%; */
 }
 
 
 .first-paragraph {
+    margin: 40px 0;
    display: flex;
-   flex-direction: column;
+   flex-direction: row;
    justify-content: space-around;
    align-items: center;
-   width: 800px;
+   max-width: 1200px;
    font-weight: 600;
+   text-align: center;
+}
+
+.first-paragraph div {
+    padding: 20px;
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.first-paragraph .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    --b: 4px;   /* thickness of the border */
+    --c: black;   /*color of the border*/
+    --w: 20px;  /*width of border*/
+    
+  
+    border: var(--b) solid #0000; 
+    --_g: #0000 90deg,var(--c) 0;
+    --_p: var(--w) var(--w) border-box no-repeat;
+    background:
+      conic-gradient(from 90deg  at top    var(--b) left  var(--b),var(--_g)) 0    0    / var(--_p),
+      conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g)) 100% 0    / var(--_p),
+      conic-gradient(from 0deg   at bottom var(--b) left  var(--b),var(--_g)) 0    100% / var(--_p),
+      conic-gradient(from -90deg at bottom var(--b) right var(--b),var(--_g)) 100% 100% / var(--_p); 
+}
+
+.first-paragraph img {
+    max-width: 500px;
+    /* border-top: 2px solid black;
+    border-bottom: 2px solid black; */
+
+   
 }
 
 .more-button {
@@ -60,39 +106,115 @@
 .Article h1 {
     margin-top: 20px;
     text-transform: uppercase;
-    font-size: 45px !important;
+    text-align: center;
+    font-size: 55px !important;
     padding: 10px 0;
-    font-weight: 600 !important;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    font-family:'Times New Roman', Times, serif;
+    font-weight: 400 !important;
+    /* border-top: 1px solid black;
+    border-bottom: 1px solid black; */
+    border:none;
+    /* font-family: 'Times New Roman', Times, serif; */
+    /* font-family: 'Poltawski Nowy', serif; */
+    font-family: 'Playfair', serif;
+    letter-spacing: -2.5px;
+    line-height: 45px;
     color: #000;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     font-size: 100px;   
 }
 
 .Article h2 {
     /* font-family: 'Harry Potter', sans-serif; */
-    font-family: 'Reenie Beanie', cursive;
-    font-size: 50px;
-    margin-bottom: 5px;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: 'Poltawski Nowy', serif;
+    /* font-family: 'Playfair', serif; */
+    font-weight: 400;
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.Article h3 {
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .content-wrapper img {
-    max-width: 400px;
-    max-height: 400px;
+    /* max-width: 400px;
+    max-height: 400px; */
+    width: 150px;
+    margin-right: 30px;
 }
 
-.content-wrapper .frame {
-    width: 230px;
-    height: 350px;
-    margin: 0 20px;
+.image-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
 }
 
-.content-wrapper .pic {
-    max-height: 500px;
+.image-wrapper .image {
+    margin-top: 50px;
+    text-align: center;
+    /* border-top: 2.5px solid black;
+    border-bottom: 2.5px solid black; */
+}
+
+.image-wrapper .image img {
+    --b: 2px;   /* thickness of the border */
+    --c: black;   /*color of the border*/
+    --w: 20px;  /*width of border*/
+    
+  
+    border: var(--b) solid #0000; 
+    --_g: #0000 90deg,var(--c) 0;
+    --_p: var(--w) var(--w) border-box no-repeat;
+    background:
+      conic-gradient(from 90deg  at top    var(--b) left  var(--b),var(--_g)) 0    0    / var(--_p),
+      conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g)) 100% 0    / var(--_p), 
+       conic-gradient(from 0deg   at bottom var(--b) left  var(--b),var(--_g)) 0    100% / var(--_p),
+      conic-gradient(from -90deg at bottom var(--b) right var(--b),var(--_g)) 100% 100% / var(--_p); 
+}
+
+
+.image-wrapper img {
+    max-width: 180px;
+
+}
+
+.image-wrapper .image p{
+    font-size: 12px;
+}
+
+.article-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1200px;
+}
+
+.article-wrapper .image-col {
+    display: flex;
+    flex-direction: column;
     max-width: 300px;
 }
+
+
+
+
+.article-wrapper .text-col {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+
+.article-wrapper .text-col h2 {
+    margin-top: 20px;
+}
+
+
 
 @media only screen and (max-width: 750px) {
     .content-wrapper {
